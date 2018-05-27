@@ -16,29 +16,51 @@ This command executes the retrain.py script, it takes 30-45 minutes. In bottlene
 
 This is how the image directory structure should like: (The name of the sub-folders is equivalent to the label names)
 
-<code>
-.
-+--hand_images
-   +-- one
-       +-- image.jpg
-       +-- image.jpg
-       +-- image.jpg
-       +-- image.jpg
-   +-- two
-       +-- image.jpg
-       +-- image.jpg
-       +-- image.jpg
-       +-- image.jpg
-   +-- three
-       +-- image.jpg
-       +-- image.jpg
-       +-- image.jpg
-       +-- image.jpg
-   ...
-   ...
-   ...
-   etc.
-   </code>
+<ul>
+   <li>hand_images</li>
+   <li>
+      <ul>
+         <li>one</li>
+         <li>
+            <ul>
+               <li>image.jpg</li>
+               <li>image.jpg</li>
+               <li>image.jpg</li>
+               <li>image.jpg</li>
+            </ul>
+         </li>
+      </ul>
+   </li>
+      <li>
+      <ul>
+         <li>two</li>
+         <li>
+            <ul>
+               <li>image.jpg</li>
+               <li>image.jpg</li>
+               <li>image.jpg</li>
+               <li>image.jpg</li>
+            </ul>
+         </li>
+      </ul>
+   </li>
+      <li>
+      <ul>
+         <li>three</li>
+         <li>
+            <ul>
+               <li>image.jpg</li>
+               <li>image.jpg</li>
+               <li>image.jpg</li>
+               <li>image.jpg</li>
+            </ul>
+         </li>
+      </ul>
+   </li>
+   
+   <li>etc.</li>
+   
+</ul>
 
 
 <code>
